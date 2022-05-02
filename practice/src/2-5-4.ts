@@ -17,5 +17,5 @@ rl.question('コマンドを入力してください: ', (name) => {
     default:
       console.log(`コマンド${name}を認識できませんでした。`);
   }
-  rl.close(;)
+  rl.close();
 });
