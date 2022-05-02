@@ -1,5 +1,4 @@
-let n = 1;
-while( n <= 100 ) {
+for( let n = 1; n <= 100; n++ ) {
   if (n % 15 == 0) {
     console.log('FizzBuzz');
   }
@@ -12,5 +11,4 @@ while( n <= 100 ) {
   else {
     console.log(n);
   }
-  n++;
 }

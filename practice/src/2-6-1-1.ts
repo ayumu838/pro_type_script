@@ -1,7 +1,6 @@
-let n = 1;
 let result: string = '';
 
-while( n <= 100 ) {
+for( let n = 1; n <= 100; n++ ) {
   if (n % 15 == 0) {
     result += ' FizzBuzz';
   }
@@ -14,7 +13,6 @@ while( n <= 100 ) {
   else {
     result += ` ${n}`;
   }
-  n++;
 }
 
 console.log(result);
